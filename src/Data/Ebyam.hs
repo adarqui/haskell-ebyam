@@ -2,12 +2,13 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
 module Data.Ebyam (
-  ebyam
+  ebyam,
+  module A
 ) where
 
 
 
-import           Data.Maybe (Maybe, maybe)
+import           Data.Maybe as A
 
 
 
